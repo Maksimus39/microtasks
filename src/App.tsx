@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {NestedComponent} from "./Nested components/nestedComponent";
 import {MethodMap} from "./metodMap/MetodMap";
+import {Button} from "./button/Button";
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
             <NestedComponent title={'User'}/>
             <hr/>
             <MethodMap car={topCars}/>
+            <hr/>
+            <Button/>
         </div>
     );
 }
