@@ -3,6 +3,7 @@ import './App.css';
 import {NestedComponent} from "./Nested components/nestedComponent";
 import {MethodMap} from "./metodMap/MetodMap";
 import {Button} from "./button/Button";
+import {UseState} from "./useState/UseState";
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
             <MethodMap car={topCars}/>
             <hr/>
             <Button/>
+            <hr/>
+            <UseState/>
         </div>
     );
 }
