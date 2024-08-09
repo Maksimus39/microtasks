@@ -5,6 +5,7 @@ import {MethodMap} from "./metodMap/MetodMap";
 import {Button} from "./button/Button";
 import {UseState} from "./useState/UseState";
 import {Filter} from "./filter/Filter";
+import {Input} from "./input/Input";
 
 function App() {
 
@@ -29,6 +30,8 @@ function App() {
             <UseState/>
             <hr/>
             <Filter/>
+            <hr/>
+            <Input/>
         </div>
     );
 }
